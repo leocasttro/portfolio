@@ -1,0 +1,44 @@
+import styled from 'styled-components';
+
+export const AreaSobre = styled.div`
+  * {
+      text-decoration: none;
+      color: #fff;
+    }
+
+  h1 {
+    font-size: 38px;
+    margin-left: 890px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+  }
+
+  .containerContato {
+      margin: 0 auto;
+      display: flex;
+      border-radius: 20px;
+      background-color: rgba(255, 255, 255, 0.137);
+      padding: 15px;
+      max-width: 700px;
+      height: 600px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      align-items: center;
+      backdrop-filter: blur(10px);
+    }
+
+    .textSobre {
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      line-height: 30px;
+      margin: 0 25px 90px;
+    }
+    
+    .buttomBack {
+    color: #fff;
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 30px;
+  }
+
+`;
