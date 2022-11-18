@@ -15,6 +15,16 @@ export const AreaCarousel = styled.div`
     font-weight: lighter;
   }
 
+  @media screen and (max-width: 1366px) {
+    h1 {
+      color: #fff;
+      font-size: 38px;
+      margin-left: 580px;
+      margin-bottom: 40px;
+      font-weight: lighter;
+    }
+  }
+
   .buttomBack {
     color: #fff;
     display: inline-block;
@@ -49,6 +59,14 @@ export const AreaCarousel = styled.div`
     font-size: 30px;
     margin-left: 850px;
     margin-top: 30px;
+  }
+
+  @media screen and (max-width: 1366px) {
+    .techs {
+      font-size: 30px;
+      margin-left: 570px;
+      margin-top: 30px;
+    }
   }
 
   .techs svg {

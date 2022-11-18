@@ -13,6 +13,16 @@ export const AreaSobre = styled.div`
     font-weight: lighter;
   }
 
+  @media screen and (max-width: 1366px) {
+    h1 {
+      color: #fff;
+      font-size: 38px;
+      margin-left: 600px;
+      margin-bottom: 40px;
+      font-weight: lighter;
+    }
+  }
+
   .containerContato {
       margin: 0 auto;
       display: flex;

@@ -14,6 +14,16 @@ export const AreaMenu = styled.div`
     display: inline-block;
   }
 
+  @media screen and (max-width: 1366px) {
+    .textCenter {
+      color: #fff;
+      font-family: Share Tech Mono;
+      font-size: 38px;
+      margin: 0 480px 50px;
+      display: inline-block;
+    }
+  }
+
   .textCenter p {
     margin: 0 110px;
     text-transform: capitalize;
